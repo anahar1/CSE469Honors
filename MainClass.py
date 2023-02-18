@@ -25,4 +25,4 @@ score6 = advertizing(instagramID=instagramID)
 
 final_score = score1 * 0.1 + score2 * 0.2 + score3 * 0.3 + score4 * 0.1 + score5 * 0.1 + score6 * 0.2
 
-print(final_score + "%")
+print(final_score)
