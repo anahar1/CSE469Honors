@@ -17,7 +17,7 @@ def advertizing(instagramID):
 def postInfo(allData):
     data = str(allData)
     recentPostCount = data.count('Post')
-    print(recentPostCount)
+    #print(recentPostCount)
     #print(data)
     return recentPostCount
 
