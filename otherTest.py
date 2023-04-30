@@ -3,10 +3,6 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser(description='Determine bot chance of an instagram account')
-#parser.add_argument('--verbose')
-#args = parser.parse_args()
-
-#print(args)
 
 print("Enter the Instagram Account ID: ")
 instagramID = input()

@@ -4,10 +4,7 @@ from Followers import *
 import os
 import sys
 
-#import language_check
-
 session_id = "38566737751%3Ah7JpgePGAoLxJe%334"
-#session_id = "48239853725%3AtMLROwfiPVhLFP%3A56"
 
 print("Enter the Instagram Account ID: ")
 instagramID = input()

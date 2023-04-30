@@ -18,7 +18,7 @@ userProfiles["kane"] = [33600, 975, False, 491, True]
 print("Enter the Instagram Account ID: ", end="")
 instagramID = input()
 
-#check if user is verified and if the user is verified, print verification status and do sys.exit()
+#check if user is verified and if the user is verified, print verification status and do sys.exit(tgyv)
 
 #percent chance the passed in profile is a bot
 botChance = 0
@@ -26,7 +26,7 @@ botChance = 0
 #Computes follower to following ratio
 userRatio = ffRatio(userProfiles[instagramID][0], userProfiles[instagramID][1])
 
-if(userRatio < 2):
+if(userRatio < 2 and userRatio != -1):
     botChance += 25
 
 
